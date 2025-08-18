@@ -1,0 +1,589 @@
+.frame-utama {
+  width: 417px;
+  height: 456px;
+  position: absolute;
+  left: -3px;
+  top: -4px;
+}
+.gambarutama {
+  width: 411px;
+  height: 308px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 4px;
+  object-fit: cover;
+  aspect-ratio: 411/308;
+}
+.frame-top-header {
+  width: 411px;
+  height: 39px;
+  position: absolute;
+  left: 3px;
+  top: 4px;
+}
+.backheader-1 {
+  background: linear-gradient(
+    186.24deg,
+    rgba(109, 104, 104, 0.12) 27.88461446762085%
+  );
+  width: 411px;
+  height: 39px;
+  position: absolute;
+  left: calc(50% - -205.5px);
+  top: calc(50% - -19.5px);
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.logo-binjaiku {
+  width: 53px;
+  height: 39px;
+  position: absolute;
+  left: 19px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 53/39;
+}
+.menuframe {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 367px;
+  top: 3px;
+  cursor: pointer;
+}
+.menu {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.frame-headline {
+  width: 417px;
+  height: 413px;
+  position: absolute;
+  left: 0px;
+  top: 43px;
+}
+.group-head-utama {
+  position: absolute;
+  inset: 0;
+}
+.back-body-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(112, 109, 109, 0.3) 0%,
+    rgba(58, 53, 53, 0.75) 100%
+  );
+  width: 414px;
+  height: 79px;
+  position: absolute;
+  left: calc(50% - 208.5px);
+  top: 157px;
+}
+.headline-utama-lp {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 180.5px);
+  top: 155px;
+  width: 175px;
+  height: 81px;
+}
+.back-bodymobile {
+  background: rgba(55, 51, 51, 0.97);
+  width: 416px;
+  height: 174px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 236px;
+}
+.subheadline-1 {
+  color: #f4ebeb;
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 243px;
+  width: 360px;
+  height: 64px;
+}
+.subheadline-to-cta {
+  color: #f4ebeb;
+  text-align: center;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 334.53px;
+  width: 360px;
+  height: 26.84px;
+}
+.buttonutama {
+  width: 110px;
+  height: 29.75px;
+  position: static;
+}
+.back-ct-akiri {
+  background: #e8cd34;
+  border-radius: 55px;
+  width: 110px;
+  height: 29.75px;
+  position: absolute;
+  left: 153px;
+  top: 372px;
+  cursor: pointer;
+}
+.ct-akiri {
+  color: #000000;
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 166px;
+  top: 380.93px;
+  width: 84.67px;
+  height: 11.9px;
+}
+.frame-present {
+  width: 413px;
+  height: 114px;
+  position: absolute;
+  left: 209px;
+  translate: -50%;
+  top: 449px;
+}
+.group-present {
+  position: absolute;
+  inset: 0;
+}
+.back-kami {
+  background: #78ad0d;
+  width: 413px;
+  height: 114px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.bykami-headline {
+  color: #f4ebeb;
+  text-align: center;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 99.5px);
+  top: 11px;
+  width: 191px;
+  height: 18px;
+}
+.logopresent {
+  width: 291px;
+  height: 42px;
+  position: static;
+}
+.logo-um {
+  width: 253px;
+  height: 42px;
+  position: absolute;
+  left: 60px;
+  top: 48px;
+  object-fit: cover;
+  aspect-ratio: 253/42;
+}
+.logo-19 {
+  width: 38px;
+  height: 37px;
+  position: absolute;
+  left: 313px;
+  top: 48px;
+  object-fit: cover;
+  aspect-ratio: 38/37;
+}
+.frametgh {
+  width: 375px;
+  height: 1372px;
+  position: absolute;
+  left: 18px;
+  top: 574px;
+}
+.tentang-kami {
+  color: #222121;
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 52.5px);
+  top: 0px;
+  width: 108px;
+}
+.line-2 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: rgba(114, 107, 107, 0.49);
+  border-width: 3px 0 0 0;
+  width: 375px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 186.5px);
+  top: 33px;
+  transform-origin: 0 0;
+  transform: rotate(0.012deg) scale(1, 1);
+}
+.fotoo-1 {
+  width: 190px;
+  height: 218px;
+  position: absolute;
+  left: calc(50% - 93.5px);
+  top: 52px;
+  object-fit: cover;
+  aspect-ratio: 190/218;
+}
+.kami-adalah-kelompok-kkn-19-universitas-mulia-balikpapan-yang-pada-tahun-ini-diberi-kesempatan-untuk-mengabdi-di-desa-gunung-binjai-kelurahan-teritip-lebih-dari-sekedar-program-pengabdian-kkn-ini-menjadi-perjalanan-batin-dan-kebersamaan-yang-akan-kami-kenang-selamanya {
+  color: #222121;
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 148.5px);
+  top: 290px;
+  width: 300px;
+}
+.fotoo-2 {
+  width: 190px;
+  height: 219px;
+  position: absolute;
+  left: 93px;
+  top: 446px;
+  object-fit: cover;
+  aspect-ratio: 190/219;
+}
+.setiap-foto-bukan-hanya-visual-dari-tawa-saat-bekerja-bersama-makan-dalam-satu-lingkaran-hingga-momen-momen-kecil-yang-mengikat-hati-kami-dengan-desa-ini-mereka-adalah-bukti-kasih-penerimaan-dan-hubungan-emosional-yang-terjalin-di-gunung-binjai {
+  color: #222121;
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 38px;
+  top: 688px;
+  width: 300px;
+}
+.fotoo-3 {
+  width: 190px;
+  height: 219px;
+  position: absolute;
+  left: 93px;
+  top: 823px;
+  object-fit: cover;
+  aspect-ratio: 190/219;
+}
+.website-ini-kami-hadirkan-sebagai-bentuk-pelestarian-rasa-cinta-kami-terhadap-desa-gunung-binjai-melalui-pengamatan-wawancara-dan-interaksi-langsung-kami-mencoba-menangkap-identitas-kearifan-lokal-dan-cerita-cerita-berharga-dari-gunung-binjai-semua-itu-kami-abadikan-secara-digital-agar-warisan-budaya-nilai-sosial-dan-sejarah-desa-ini-tidak-hilang-ditelan-waktu-lewat-laman-ini-kami-berharap-siapa-pun-yang-melihat-bisa-merasakan-hangatnya-kebersamaan-yang-kami-rasakan-dan-bahwa-sekecil-apa-pun-kontribusi-jika-dilakukan-dengan-hati-bisa-membawa-makna-besar {
+  color: #222121;
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 38px;
+  top: 1080px;
+  width: 300px;
+  height: 215px;
+}
+.framectaa {
+  width: 411px;
+  height: 626px;
+  position: absolute;
+  left: 0px;
+  top: 1946px;
+}
+.backfotobawah {
+  background: #78ad0d;
+  width: 411px;
+  height: 626px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.fotoobah {
+  width: 392px;
+  height: 294px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 9px;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
+.backfotobawah-0 {
+  background: #78ad0d;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #7cd56c;
+  border-width: 3px;
+  width: 340px;
+  height: 305px;
+  position: absolute;
+  left: 33px;
+  top: 310px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.kami-mahasiswa-biasa-tapi-kami-percaya-dari-tangan-kecil-kami-tumbuh-masa-depan-yang-lebih-cerah {
+  color: #f4ebeb;
+  text-align: left;
+  font-family: "ArchitectsDaughter-Regular", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 44px;
+  top: 319px;
+  width: 183px;
+}
+.salam-hangat-dari-kami-kelompok-kkn-19-universitas-mulia-balikpapan {
+  color: #222121;
+  text-align: left;
+  position: absolute;
+  left: 44px;
+  top: 529px;
+  width: 317px;
+}
+.salam-hangat-dari-kami-kelompok-kkn-19-universitas-mulia-balikpapan-span {
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+.salam-hangat-dari-kami-kelompok-kkn-19-universitas-mulia-balikpapan-span2 {
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+/* baru */
+.framepalingatas {
+  width: 129px;
+  height: 199px;
+  position: relative;
+  left: 285px;
+  top: 0px;
+  z-index: 20;
+}
+.buttonh-5 {
+  position: absolute;
+  inset: 0;
+}
+.bc-2-pw-5 {
+  background: #78ad0d;
+  border-style: solid;
+  border-color: rgba(99, 99, 99, 0.31);
+  border-width: 4px;
+  width: 94px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - -64.5px);
+  top: calc(50% - -99.5px);
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.h-5 {
+  color: #100f0d;
+  text-align: center;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 18.5px);
+  top: 163px;
+  width: 72px;
+  height: 31px;
+  cursor: pointer;
+}
+.buttonh-4 {
+  position: absolute;
+  inset: 0;
+}
+.bc-2-pw-4 {
+  background: #78ad0d;
+  border-style: solid;
+  border-color: rgba(99, 99, 99, 0.31);
+  border-width: 4px;
+  width: 94px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - -64.5px);
+  top: calc(50% - -60.5px);
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.h-4 {
+  color: #100f0d;
+  text-align: center;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 26.5px);
+  top: 125px;
+  width: 88px;
+  height: 30px;
+  cursor: pointer;
+}
+.buttonh-3 {
+  position: absolute;
+  inset: 0;
+}
+.bc-2-pw-3 {
+  background: #78ad0d;
+  border-style: solid;
+  border-color: rgba(99, 99, 99, 0.31);
+  border-width: 4px;
+  width: 94px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - -64.5px);
+  top: calc(50% - -20.5px);
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.h-3 {
+  color: #100f0d;
+  text-align: center;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 26.5px);
+  top: 88px;
+  width: 88px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buttonh-2 {
+  position: absolute;
+  inset: 0;
+}
+.bc-2-pw-2 {
+  background: #78ad0d;
+  border-style: solid;
+  border-color: rgba(99, 99, 99, 0.31);
+  border-width: 4px;
+  width: 94px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - -64.5px);
+  top: 50%;
+  translate: 0 -50%;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.h-2 {
+  color: #100f0d;
+  text-align: center;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 26.5px);
+  top: 45px;
+  width: 88px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buttonh-1 {
+  position: absolute;
+  inset: 0;
+}
+.bc-2-pw-1 {
+  background: #78ad0d;
+  border-style: solid;
+  border-color: rgba(99, 99, 99, 0.31);
+  border-width: 4px;
+  width: 94px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - -64.5px);
+  top: calc(50% - 59.5px);
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.h-1 {
+  color: #100f0d;
+  text-align: center;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 26.5px);
+  top: 5px;
+  width: 88px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buttonhback {
+  position: absolute;
+  inset: 0;
+}
+.bc-2-pwbackicoon {
+  background: #78ad0d;
+  border-style: solid;
+  border-color: rgba(99, 99, 99, 0.31);
+  border-width: 4px;
+  width: 35px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - 29.5px);
+  top: calc(50% - 59.5px);
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.backicoon {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 0px;
+  top: 3.29px;
+  object-fit: cover;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
