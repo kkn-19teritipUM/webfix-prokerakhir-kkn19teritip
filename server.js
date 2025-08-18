@@ -57,6 +57,19 @@ async function initPDFQA() {
   qaChain = RetrievalQAChain.fromLLM(llm, retriever);
 }
 
+// Middleware untuk membatasi hanya Android & iOS
+app.use((req, res, next) => {
+  const userAgent = req.headers['user-agent'] || '';
+
+  const isMobile = /android|iphone|ipad|ipod/i.test(userAgent);
+
+  if (!isMobile) {
+    return res.status(403).send('Akses hanya diperbolehkan dari perangkat Android/iOS.');
+  }
+
+  next();
+});
+
 // Routes
 app.get('/', (req, res) => {
   res.render('kkn1');
@@ -89,10 +102,11 @@ app.post('/process', async (req, res) => {
 // Start server
 initPDFQA().then(() => {
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
 
 }).catch(err => {
   console.error('Failed to initialize PDF QA:', err);
 });
+
