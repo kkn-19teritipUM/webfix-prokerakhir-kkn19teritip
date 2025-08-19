@@ -62,7 +62,7 @@
   aspect-ratio: 1;
 }
 .frame-headline {
-  width: 417px;
+  width: 411px;
   height: 413px;
   position: absolute;
   left: 0px;
@@ -78,7 +78,7 @@
     rgba(112, 109, 109, 0.3) 0%,
     rgba(58, 53, 53, 0.75) 100%
   );
-  width: 414px;
+  width: 411px;
   height: 79px;
   position: absolute;
   left: calc(50% - 208.5px);
@@ -99,10 +99,10 @@
 }
 .back-bodymobile {
   background: rgba(55, 51, 51, 0.97);
-  width: 416px;
+  width: 411px;
   height: 174px;
   position: absolute;
-  left: 50%;
+  left: 49.5%;
   translate: -50%;
   top: 236px;
 }
@@ -158,12 +158,12 @@
   font-weight: 400;
   position: absolute;
   left: 166px;
-  top: 380.93px;
+  top: 380px;
   width: 84.67px;
   height: 11.9px;
 }
 .frame-present {
-  width: 413px;
+  width: 411px;
   height: 114px;
   position: absolute;
   left: 209px;
@@ -176,10 +176,10 @@
 }
 .back-kami {
   background: #78ad0d;
-  width: 413px;
+  width: 411px;
   height: 114px;
   position: absolute;
-  left: 50%;
+  left: 49%;
   translate: -50%;
   top: 0px;
 }
@@ -220,11 +220,11 @@
   aspect-ratio: 38/37;
 }
 .frametgh {
-  width: 375px;
+  width: 411px;
   height: 1372px;
   position: absolute;
-  left: 18px;
-  top: 574px;
+  left: 0px;
+  top: 563px;
 }
 .tentang-kami {
   color: #222121;
@@ -235,8 +235,17 @@
   font-weight: 400;
   position: absolute;
   left: calc(50% - 52.5px);
-  top: 0px;
+  top: 6px;
   width: 108px;
+}
+.backkonten {
+  background: #eeeaea;
+  width: 411px;
+  height: 1392px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
 }
 .line-2 {
   margin-top: -3px;
@@ -255,7 +264,7 @@
   width: 190px;
   height: 218px;
   position: absolute;
-  left: calc(50% - 93.5px);
+  left: 108px;
   top: 52px;
   object-fit: cover;
   aspect-ratio: 190/218;
@@ -268,7 +277,7 @@
   letter-spacing: 0.01em;
   font-weight: 400;
   position: absolute;
-  left: calc(50% - 148.5px);
+  left: 53px;
   top: 290px;
   width: 300px;
 }
@@ -276,7 +285,7 @@
   width: 190px;
   height: 219px;
   position: absolute;
-  left: 93px;
+  left: 108px;
   top: 446px;
   object-fit: cover;
   aspect-ratio: 190/219;
@@ -289,7 +298,7 @@
   letter-spacing: 0.01em;
   font-weight: 400;
   position: absolute;
-  left: 38px;
+  left: 53px;
   top: 688px;
   width: 300px;
 }
@@ -297,7 +306,7 @@
   width: 190px;
   height: 219px;
   position: absolute;
-  left: 93px;
+  left: 108px;
   top: 823px;
   object-fit: cover;
   aspect-ratio: 190/219;
@@ -310,7 +319,7 @@
   letter-spacing: 0.01em;
   font-weight: 400;
   position: absolute;
-  left: 38px;
+  left: 53px;
   top: 1080px;
   width: 300px;
   height: 215px;
@@ -586,4 +595,133 @@
   object-fit: cover;
   aspect-ratio: 1;
   cursor: pointer;
+}
+
+/* terbaru */
+.framectaig {
+  width: 411px;
+  height: 366px;
+  position: absolute;
+  left: 0px;
+  top: 2572px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.backfthaa-2 {
+  background: #2a2828;
+  width: 411px;
+  height: 327px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.fthaa-2 {
+  width: 411px;
+  height: 327px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 411/327;
+}
+.backtransp-bawh-1 {
+  background: rgba(40, 37, 37, 0.26);
+  width: 184px;
+  height: 327px;
+  position: absolute;
+  left: 227px;
+  top: 0px;
+}
+.back-bodymobilebawah {
+  background: rgba(55, 51, 51, 0.97);
+  width: 411px;
+  height: 39px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 327px;
+}
+.buttonctaig {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+}
+.ct-aig {
+  color: #e8cd34;
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 257px;
+  top: 292px;
+  width: 64px;
+  height: 12px;
+
+}
+.back-ct-aig {
+  border-radius: 55px;
+  border-style: solid;
+  border-color: #e8cd34;
+  border-width: 2px;
+  width: 78px;
+  height: 20px;
+  position: absolute;
+  left: 245px;
+  top: 288px;
+  cursor: pointer;
+}
+.ttskctaig {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 241px;
+  top: 16px;
+  width: 151px;
+}
+.backlogo-19-bawah {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 245px;
+  top: 229px;
+}
+.logo-19-bwh {
+  width: 38px;
+  height: 37px;
+  position: absolute;
+  left: 245px;
+  top: 229px;
+  object-fit: cover;
+  aspect-ratio: 38/37;
+}
+.kkn-teritip-19 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 289px;
+  top: 240px;
+}
+.linebwhig {
+  margin-top: -2px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.6);
+  border-width: 2px 0 0 0;
+  width: 151px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - -35.5px);
+  top: 106px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
 }
