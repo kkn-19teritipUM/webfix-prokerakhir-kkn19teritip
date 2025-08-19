@@ -58,17 +58,17 @@ async function initPDFQA() {
 }
 
 // Middleware untuk membatasi hanya Android & iOS
-app.use((req, res, next) => {
-  const userAgent = req.headers['user-agent'] || '';
+// app.use((req, res, next) => {
+//   const userAgent = req.headers['user-agent'] || '';
 
-  const isMobile = /android|iphone|ipad|ipod/i.test(userAgent);
+//   const isMobile = /android|iphone|ipad|ipod/i.test(userAgent);
 
-  if (!isMobile) {
-    return res.status(403).send('Akses hanya diperbolehkan dari perangkat Android/iOS.');
-  }
+//   if (!isMobile) {
+//     return res.status(403).send('Akses hanya diperbolehkan dari perangkat Android/iOS.');
+//   }
 
-  next();
-});
+//   next();
+// });
 
 // Routes
 app.get('/', (req, res) => {
@@ -82,6 +82,15 @@ app.get('/kkn1', (req, res) => {
 app.get('/kkn2', (req, res) => {
   res.render('kkn2');
 });
+
+app.get('/kkn3', (req, res) => {
+  res.render('kkn3');
+});
+
+app.get('/kkn4', (req, res) => {
+  res.render('kkn4');
+});
+
 
 app.post('/process', async (req, res) => {
   const { topic } = req.body;
@@ -109,4 +118,5 @@ app.listen(PORT, '0.0.0.0', () => {
 }).catch(err => {
   console.error('Failed to initialize PDF QA:', err);
 });
+
 
