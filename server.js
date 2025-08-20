@@ -91,6 +91,9 @@ app.get('/kkn4', (req, res) => {
   res.render('kkn4');
 });
 
+app.get('/kkn5', (req, res) => {
+  res.render('kkn5');
+});
 
 app.post('/process', async (req, res) => {
   const { topic } = req.body;
@@ -118,5 +121,6 @@ app.listen(PORT, '0.0.0.0', () => {
 }).catch(err => {
   console.error('Failed to initialize PDF QA:', err);
 });
+
 
 
